@@ -1,0 +1,2 @@
+window.addEventListener("DOMContentLoaded",function(){var e,n=document.querySelector("ul");e=Array.from(n.querySelectorAll("li")).sort(function(e,n){var t=r(e.dataset.salary);return r(n.dataset.salary)-t}),n.innerHTML="",e.forEach(function(r){return n.append(r)}),function(r){Array.from(r.querySelectorAll("li")).map(function(r){return{name:r.textContent.trim()}})}(n)});function r(r){return Number(r.replace(/[$,]/g,""))}
+//# sourceMappingURL=index.2c8ed28a.js.map
